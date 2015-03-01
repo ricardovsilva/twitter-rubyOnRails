@@ -10,9 +10,8 @@ class PostsController < ApplicationController
 		@post = Post.create(:message => params[:message])
 		respond_to do |format|
 			if @post.save
-				byebug
 				#format.html { redirect_to posts_path }
-				format.js { render 'create'}
+				format.js
 			else
 				flash[:notice] = "Message failed to save."
 				format.html { redirect_to posts_path }
@@ -20,5 +19,5 @@ class PostsController < ApplicationController
 		end
 	end
 end
-
+			
 
