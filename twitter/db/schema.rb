@@ -14,9 +14,9 @@
 ActiveRecord::Schema.define(version: 20150228155036) do
 
   create_table "posts", force: :cascade do |t|
-    t.text     "message",    limit: 65535
-    t.datetime "created_at",               null: false
-    t.datetime "updated_at",               null: false
+    t.text     "message"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
