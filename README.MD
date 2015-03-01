@@ -2,4 +2,4 @@
 
 I`m following the tutorial from http://www.noupe.com/development/create-a-simple-twitter-app.html.
 
-I'm facing problems with Javascript. I posted error on Stackoverflow: http://stackoverflow.com/questions/28784862/error-with-js-erb-file
+I was facing problems with Javascript. I posted error on Stackoverflow: http://stackoverflow.com/questions/28784862/error-with-js-erb-file . I received great help from [Anton Fefilov](https://github.com/antonfefilov) that spent an entire week (I really don't know what part of day was in Anton country) helping me, thanks Anton, this tutorial cannot be completed without your help.
